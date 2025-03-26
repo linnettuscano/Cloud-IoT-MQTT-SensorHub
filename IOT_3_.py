@@ -34,11 +34,11 @@ def generate_data():
 
 while True:
     sensor_data = generate_data()
-    payload = json.dumps(sensor_data)  # Convert the data to JSON format
+    payload = json.dumps(sensor_data)  
     
-    print(f"Publishing Data: {payload}")  # Print data before sending
+    print(f"Publishing Data: {payload}")  
     
-    # Publish the data to the MQTT topic
+    
     client.publish(topic, payload)
     
-    time.sleep(30)  # Wait for 5 seconds before publishing next data
+    time.sleep(30)  
