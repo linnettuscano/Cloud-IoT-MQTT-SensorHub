@@ -15,7 +15,7 @@ Steps for Setup
    - create an AWS IoT Rule: 
      - The rule will trigger whenever data is received on the topic and store the data in the S3 bucket. The message format will be a JSON object containing sensor readings.
 
-3. AWS IoT Certificates and Permissions**
+3. AWS IoT Certificates and Permissions
    - Make sure that the AWS IoT policy and the necessary certificates are configured properly.
    - Attach the required IAM role and permissions to allow the rule to access the S3 bucket.
 
