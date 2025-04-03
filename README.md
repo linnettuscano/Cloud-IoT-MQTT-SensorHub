@@ -9,7 +9,7 @@ Steps for Setup
    - Required Python libraries:
      - `paho-mqtt`
 
-2.Configure AWS IoT and S3**
+2.Configure AWS IoT and S3
    - AWS IoT: Set up AWS IoT core with a specific topic for receiving sensor data.
    - S3 Bucket: Create an S3 bucket to store the sensor data.
    - create an AWS IoT Rule: 
